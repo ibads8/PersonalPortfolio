@@ -106,11 +106,35 @@ p {
 }
 
 @media (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+
   h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
+  }
+
+  h3 {
+    margin: 10px 5px;
   }
   p {
     text-align: center;
+  }
+
+  #about-me {
+    text-align: center;
+    font-size: 36px;
+    margin: 10px 0;
+  }
+
+  .launch-apps {
+    text-align: center;
+    display: block;
+    margin: 0 10px;
+  }
+
+  body {
+    margin: 100px 0;
   }
 }
